@@ -1,5 +1,36 @@
 // jQueryを用いたAPIの実装
 $(function(){
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// -------検索ーーーーーーーーーーー
+
     $(".submit-btn").on("click",function(){
         var search =$("#keyword").val();
     $.ajax({

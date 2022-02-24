@@ -1,3 +1,73 @@
+
+.wrap{
+    display: flex;
+    align-items: center;
+height: 340px;
+overflow: hidden;
+}
+
+ul{
+    list-style: none;
+}
+
+#slideshow {
+    display: flex;
+    animation: loop-slide 10s infinite linear 1s both;
+  }
+  @keyframes loop-slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+@keyframes loop-slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  /* ホバー時に動きを止める（パターン2・3）*/
+  .slide-paused:hover .slideshow {
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+  }
+  /* ホバー時の装飾（パターン3） */
+  .content-hover {
+    transition: all 0.2s;
+    margin-right: 20px;
+  }
+  .content-hover:hover {
+    transform: translateY(-20px);
+    border-radius: 0 10%;
+    box-shadow: 0 3px 10px 0 #333;
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .search-result{
     display: none;
 }
