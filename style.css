@@ -1,9 +1,59 @@
 .search-result{
     display: none;
     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .shop-img{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.shop-img2{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.shop-img3{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.shop-img4{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.shop-img5{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.shop-img6{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.shop-img7{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.shop-img8{
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+.shop-img9{
     display: flex;
     width: 45%;
     align-items: center;
@@ -14,9 +64,6 @@
     width: 45%;
 }
 
-.shop-img img{
-    max-width: 100%;
-}
 
 /* ここからスライド */
 .slide-container{
@@ -74,5 +121,26 @@
   }
   .slide:nth-child(3){
     background-color: rgb(255, 71, 157);
+  }
+  .slide:nth-child(4){
+    background-color: orange;
+  }
+  .slide:nth-child(5){
+    background-color: red;
+  }
+  .slide:nth-child(6){
+    background-color: violet;
+  }
+  .slide:nth-child(7){
+    background-color: darkred;
+  }
+  .slide:nth-child(8){
+    background-color: orangered;
+  }
+  .slide:nth-child(9){
+    background-color: maroon;
+  }
+  .slide:nth-child(10){
+    background-color: firebrick;
   }
   /* ここまで */
