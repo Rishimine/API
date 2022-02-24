@@ -199,4 +199,75 @@ $(function(){
     }
   })
 //   ここまで
+// togobtn実装
+$(".togobtn1").on("click",function(){
+    var togo =document.createElement("li");
+    $(".togolist").append(togo);
+    var togolink =document.createElement("a");
+    togo.append(togolink);
+    togolink.append($(".shop-name").text())
+})
+$(".togobtn2").on("click",function(){
+    var togo =document.createElement("li");
+    $(".togolist").append(togo);
+    var togolink =document.createElement("a");
+    togo.append(togolink);
+    togolink.append($(".shop-name2").text())
+})
+$(".togobtn3").on("click",function(){
+    var togo =document.createElement("li");
+    $(".togolist").append(togo);
+    var togolink =document.createElement("a");
+    togo.append(togolink);
+    togolink.append($(".shop-name3").text())
+})
+$(".togobtn4").on("click",function(){
+    var togo =document.createElement("li");
+    $(".togolist").append(togo);
+    var togolink =document.createElement("a");
+    togo.append(togolink);
+    togolink.append($(".shop-name4").text())
+})
+$(".togobtn5").on("click",function(){
+    var togo =document.createElement("li");
+    $(".togolist").append(togo);
+    var togolink =document.createElement("a");
+    togo.append(togolink);
+    togolink.append($(".shop-name5").text())
+})
+$(".togobtn6").on("click",function(){
+    var togo =document.createElement("li");
+    $(".togolist").append(togo);
+    var togolink =document.createElement("a");
+    togo.append(togolink);
+    togolink.append($(".shop-name6").text())
+})
+$(".togobtn7").on("click",function(){
+    var togo =document.createElement("li");
+    $(".togolist").append(togo);
+    var togolink =document.createElement("a");
+    togo.append(togolink);
+    togolink.append($(".shop-name7").text())
+})
+$(".togobtn8").on("click",function(){
+    var togo =document.createElement("li");
+    $(".togolist").append(togo);
+    var togolink =document.createElement("a");
+    togo.append(togolink);
+    togolink.append($(".shop-name8").text())
+})
+$(".togobtn9").on("click",function(){
+    var togo =document.createElement("li");
+    $(".togolist").append(togo);
+    var togolink =document.createElement("a");
+    togo.append(togolink);
+    togolink.append($(".shop-name9").text())
+    var trashbtn = document.createElement("div");
+    trashbtn.text("delete");
+    trashbtn.classList.add("delete");
+    togo.append(trashbtn);
+    trashbtn.addEventListener("click",function(){
+        this.parentElement.remove();
+    })
+})
 })
