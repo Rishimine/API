@@ -1,4 +1,55 @@
 
+
+.header-lite{
+    display: flex;
+    align-items: center;
+justify-content: flex-start;
+padding: 5px 5px;
+font-size: 15px;
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ヘッダーライト */
+
+.header-lite img{
+    max-width: 80%;
+    padding: 0 20px;
+}
+
+.header-right li{
+    padding: 0 5px;
+    
+}
+
+.header-right{
+    display: flex;
+   
+    align-items: center;
+    justify-content: left;
+
+}
+.ul-left li{
+    padding: 5px 10px;
+}
+
+/* ヘッダーレフト */
+.ul-left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+
+/* スライドショー */
+
 .wrap{
     display: flex;
     align-items: center;
@@ -10,9 +61,10 @@ ul{
     list-style: none;
 }
 
+
 #slideshow {
     display: flex;
-    animation: loop-slide 10s infinite linear 1s both;
+    animation: loop-slide 30s infinite linear 1s both;
   }
   @keyframes loop-slide {
     from {
