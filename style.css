@@ -321,6 +321,10 @@ ul{
   }
   /* ここまで */
   /* ここからtodo copy */
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7cfd351043938d2a9f73598160fb8393c069f47
 
 
 
@@ -328,9 +332,10 @@ ul{
 
 
 /* ------picup----- */
-h2{
+#cook-h2{
   text-align: center;
 }
+
 
 .cook-img{
   display: flex;
@@ -343,8 +348,22 @@ h2{
 }
 
 
+/* inst */
+
+.sns-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
+
+.sns{
+  max-width: 10%;
+}
+.sns-fb{
+  max-width: 90%;
+}
 
 
 
@@ -355,6 +374,12 @@ h2{
   footer{
     height: 50px;
     background-color: red;
+    color: #fff;
+    text-align: center;
+    padding: 10px ;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'M PLUS Rounded 1c', sans-serif;
   }
   
 
@@ -388,4 +413,7 @@ h2{
 	z-index: 9999;
 	width: 70%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> a7cfd351043938d2a9f73598160fb8393c069f47
