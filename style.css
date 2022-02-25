@@ -115,6 +115,7 @@ ul{
 
 
 
+  
 
   .todobody{
     display: flex;
@@ -320,7 +321,6 @@ ul{
   }
   /* ここまで */
   /* ここからtodo copy */
-<<<<<<< HEAD
 
 
 
@@ -357,7 +357,7 @@ h2{
     background-color: red;
   }
   
-=======
+
   li span {
     color: red;
   };
@@ -377,7 +377,7 @@ h2{
 	height: 100%;
 	width: 100%;
 	z-index: 9000;
-}
+  }
 .start p {
 	position: fixed;
     font-size: 50px;
@@ -388,4 +388,4 @@ h2{
 	z-index: 9999;
 	width: 70%;
 }
->>>>>>> e174482a9f14f81f058e2bd29d32c7aa489fad20
+
