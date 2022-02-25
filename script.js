@@ -1,7 +1,23 @@
 // jQueryを用いたAPIの実装
 $(function(){
-
-  
+// localstrage用
+let data = JSON.parse(localStorage.getItem('key'));
+if(data == null){
+    data =[];
+}else{
+    for (const d of data) {
+        createTask(d);
+      }
+};
+// ここまで
+// ここから初めのアニメーション
+setTimeout(function () {
+    $('.start p').fadeIn(1600);
+}, 500);
+setTimeout(function () {
+    $('.start').fadeOut(500);
+}, 2500);
+// ここまで
 
 
 
@@ -259,15 +275,14 @@ $(".togobtn8").on("click",function(){
 $(".togobtn9").on("click",function(){
     var togo =document.createElement("li");
     $(".togolist").append(togo);
-    var togolink =document.createElement("a");
-    togo.append(togolink);
-    togolink.append($(".shop-name9").text())
-    var trashbtn = document.createElement("div");
-    trashbtn.text("delete");
-    trashbtn.classList.add("delete");
-    togo.append(trashbtn);
-    trashbtn.addEventListener("click",function(){
+    togo.append($(".shop-name9").text());
+    // ここからデリート
+    var delbtn = document.createElement("span");
+    delbtn.textContent ="delete";
+    delbtn.addEventListener("click",function(){
         this.parentElement.remove();
     })
+    togo.append(delbtn);
+
 })
 })
