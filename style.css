@@ -329,15 +329,25 @@ ul{
 
 
 /* ------picup----- */
+.category{
+  padding: 30px;
+
+}
+
 #cook-h2{
   text-align: center;
+  padding-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 
 .cook-img{
   display: flex;
-  align-items: center;
-  justify-content: center;
+}
+.cook-img li{
+text-align: center;
 }
 .cook{
   max-width: 50%;
@@ -345,7 +355,7 @@ ul{
 }
 
 
-/* inst */
+/* snsicon */
 
 .sns-icon{
   display: flex;
@@ -356,10 +366,12 @@ ul{
 
 
 .sns{
-  max-width: 10%;
+ height: 30px;
+ width: 30px;
 }
 .sns-fb{
-  max-width: 90%;
+ height: 30px;
+ width: 30px;
 }
 
 
@@ -370,7 +382,7 @@ ul{
   /* フッター */
   footer{
     height: 50px;
-    background-color: red;
+    background-color: rgb(121, 102, 102);
     color: #fff;
     text-align: center;
     padding: 10px ;
