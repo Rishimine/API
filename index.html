@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Luxurious+Roman&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./plugin/letterfx/jquery-letterfx.min.css">
-<link rel="stylesheet" href="./plugin/letterfx/jquery-letterfx.css">
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Luxurious+Roman&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./plugin/letterfx/jquery-letterfx.min.css">
+    <link rel="stylesheet" href="./plugin/letterfx/jquery-letterfx.css">
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="./plugin/letterfx/jquery-letterfx.js"></script>
 <script src="./plugin/letterfx/jquery-letterfx.min.js"></script>
 <script src="./plugin/letterfx/tuxsudo.min.js"></script> -->
@@ -18,6 +19,7 @@
     <title>Gurunavi</title>
 </head>
 <!-- フッターと郵便番号のAPI -->
+
 <body>
     <header>
         <div class="header-lite">
@@ -30,8 +32,12 @@
                 </ul>
             </nav>
             <ul class="ul-left">
-                <li><a href="https://point.recruit.co.jp/member/OAuthLogin/?client_id=d37b0ba0d2f2d914e6214a3130668745619a5ae452be1b41555da255f2714e54&redirect_uri=https%3A%2F%2Fwww.hotpepper.jp%2FCSP%2FcapMemberForward%2F&response_type=code&state=f250d73cfbf33880df3b5f09ed64c528a46b5bcd8985b652&re_auth=1&insertion_flg=">ログイン</a></li>
-                <li><a href="https://point.recruit.co.jp/member/memRegist/?client_id=d37b0ba0d2f2d914e6214a3130668745619a5ae452be1b41555da255f2714e54&redirect_uri=https%3A%2F%2Fwww.hotpepper.jp%2FCSP%2FcapMemberForward%2F&response_type=code&re_auth=1&insertion_flg=&state=f250d73cfbf33880df3b5f09ed64c528a46b5bcd8985b652">新規登録</a></li>
+                <li><a
+                        href="https://point.recruit.co.jp/member/OAuthLogin/?client_id=d37b0ba0d2f2d914e6214a3130668745619a5ae452be1b41555da255f2714e54&redirect_uri=https%3A%2F%2Fwww.hotpepper.jp%2FCSP%2FcapMemberForward%2F&response_type=code&state=f250d73cfbf33880df3b5f09ed64c528a46b5bcd8985b652&re_auth=1&insertion_flg=">ログイン</a>
+                </li>
+                <li><a
+                        href="https://point.recruit.co.jp/member/memRegist/?client_id=d37b0ba0d2f2d914e6214a3130668745619a5ae452be1b41555da255f2714e54&redirect_uri=https%3A%2F%2Fwww.hotpepper.jp%2FCSP%2FcapMemberForward%2F&response_type=code&re_auth=1&insertion_flg=&state=f250d73cfbf33880df3b5f09ed64c528a46b5bcd8985b652">新規登録</a>
+                </li>
             </ul>
         </div>
         <!-- <div class="header-left">
@@ -46,10 +52,14 @@
         <section>
             <div class="wrap slide-paused" ontouchstart="">
                 <ul id="slideshow">
-                    <li class="content content-hover"><a href="https://www.hotpepper.jp/index.html"><img src="./asset/privateroom2.jpeg" alt="img1"></a></li>
-                    <li class="content content-hover"><a href="https://www.hotpepper.jp/index.html"><img src="./asset/nightview.jpeg" alt="img2"></a></li>
-                    <li class="content content-hover"><a href="https://www.hotpepper.jp/index.html"><img src="./asset/ichigo.jpeg" alt="img3"></a></li>
-                    <li class="content content-hover"><a href="https://www.hotpepper.jp/index.html"><img src="./asset/anniversary.jpeg" alt="img4"></a></li>
+                    <li class="content content-hover"><a href="https://www.hotpepper.jp/index.html"><img
+                                src="./asset/privateroom2.jpeg" alt="img1"></a></li>
+                    <li class="content content-hover"><a href="https://www.hotpepper.jp/index.html"><img
+                                src="./asset/nightview.jpeg" alt="img2"></a></li>
+                    <li class="content content-hover"><a href="https://www.hotpepper.jp/index.html"><img
+                                src="./asset/ichigo.jpeg" alt="img3"></a></li>
+                    <li class="content content-hover"><a href="https://www.hotpepper.jp/index.html"><img
+                                src="./asset/anniversary.jpeg" alt="img4"></a></li>
                 </ul>
                 <ul id="slideshow">
                     <li class="content content-hover"><img src="./asset/privateroom2.jpeg" alt="img1"></li>
@@ -93,161 +103,161 @@
         <section class="API">
             <h1>お店を探す</h1>
             <div class="formbox">
-                <label for="keyword">キーワード検索</label><input type="text" id="keyword"><button class="submit-btn">検索</button>
+                <label for="keyword">キーワード検索</label><input type="text" id="keyword"><button
+                    class="submit-btn">検索</button>
             </div>
             <div class="container-wrap">
                 <span class="left-arrow"></span>
                 <span class="right-arrow"></span>
                 <div class="slide-container">
-                  <div class="slide">
-                    <div class="search-result search-result1">
-                        <div class="shop-img">
-                            <img src="" alt="">
-                        </div>
-                        <div class="intro-box">
-                            <p class="shop-name"></p>
-                            <p class="shop-address"></p>
-                            <p class="shop-time"></p>
-                            <p class="shop-homepage">
-                                <a href="" class="HP"></a>
-                            </p>
-                            <button class="togobtn1">行きたい！</button>
+                    <div class="slide">
+                        <div class="search-result search-result1">
+                            <div class="shop-img">
+                                <img src="" alt="">
+                            </div>
+                            <div class="intro-box">
+                                <p class="shop-name"></p>
+                                <p class="shop-address"></p>
+                                <p class="shop-time"></p>
+                                <p class="shop-homepage">
+                                    <a href="" class="HP"></a>
+                                </p>
+                                <button class="togobtn1">行きたい！</button>
+                            </div>
                         </div>
                     </div>
-                  </div>
-                  <div class="slide">
-                    <div class="search-result search-result2">
-                        <div class="shop-img2">
-                            <img src="" alt="">
+                    <div class="slide">
+                        <div class="search-result search-result2">
+                            <div class="shop-img2">
+                                <img src="" alt="">
+                            </div>
+                            <div class="intro-box2">
+                                <p class="shop-name2"></p>
+                                <p class="shop-address2"></p>
+                                <p class="shop-time2"></p>
+                                <p class="shop-homepage2">
+                                    <a href="" class="HP2"></a>
+                                </p>
+                                <button class="togobtn2">行きたい！</button>
+                            </div>
                         </div>
-                        <div class="intro-box2">
-                            <p class="shop-name2"></p>
-                            <p class="shop-address2"></p>
-                            <p class="shop-time2"></p>
-                            <p class="shop-homepage2">
-                                <a href="" class="HP2"></a>
-                            </p>
-                            <button class="togobtn2">行きたい！</button>
+                    </div>
+                    <div class="slide">
+                        <div class="search-result search-result3">
+                            <div class="shop-img3">
+                                <img src="" alt="">
+                            </div>
+                            <div class="intro-box3">
+                                <p class="shop-name3"></p>
+                                <p class="shop-address3"></p>
+                                <p class="shop-time3"></p>
+                                <p class="shop-homepage3">
+                                    <a href="" class="HP3"></a>
+                                </p>
+                                <button class="togobtn3">行きたい！</button>
+                            </div>
                         </div>
-                  </div>
-                  </div>
-                  <div class="slide">
-                    <div class="search-result search-result3">
-                        <div class="shop-img3">
-                            <img src="" alt="">
+                    </div>
+                    <div class="slide">
+                        <div class="search-result search-result4">
+                            <div class="shop-img4">
+                                <img src="" alt="">
+                            </div>
+                            <div class="intro-box4">
+                                <p class="shop-name4"></p>
+                                <p class="shop-address4"></p>
+                                <p class="shop-time4"></p>
+                                <p class="shop-homepage4">
+                                    <a href="" class="HP4"></a>
+                                </p>
+                                <button class="togobtn4">行きたい！</button>
+                            </div>
                         </div>
-                        <div class="intro-box3">
-                            <p class="shop-name3"></p>
-                            <p class="shop-address3"></p>
-                            <p class="shop-time3"></p>
-                            <p class="shop-homepage3">
-                                <a href="" class="HP3"></a>
-                            </p>
-                            <button class="togobtn3">行きたい！</button>
+                    </div>
+                    <div class="slide">
+                        <div class="search-result search-result5">
+                            <div class="shop-img5">
+                                <img src="" alt="">
+                            </div>
+                            <div class="intro-box5">
+                                <p class="shop-name5"></p>
+                                <p class="shop-address5"></p>
+                                <p class="shop-time5"></p>
+                                <p class="shop-homepage5">
+                                    <a href="" class="HP5"></a>
+                                </p>
+                                <button class="togobtn5">行きたい！</button>
+                            </div>
                         </div>
-                  </div>
-                  </div>
-                  <div class="slide">
-                    <div class="search-result search-result4">
-                        <div class="shop-img4">
-                            <img src="" alt="">
+                    </div>
+                    <div class="slide">
+                        <div class="search-result search-result6">
+                            <div class="shop-img6">
+                                <img src="" alt="">
+                            </div>
+                            <div class="intro-box6">
+                                <p class="shop-name6"></p>
+                                <p class="shop-address6"></p>
+                                <p class="shop-time6"></p>
+                                <p class="shop-homepage6">
+                                    <a href="" class="HP6"></a>
+                                </p>
+                                <button class="togobtn6">行きたい！</button>
+                            </div>
                         </div>
-                        <div class="intro-box4">
-                            <p class="shop-name4"></p>
-                            <p class="shop-address4"></p>
-                            <p class="shop-time4"></p>
-                            <p class="shop-homepage4">
-                                <a href="" class="HP4"></a>
-                            </p>
-                            <button class="togobtn4">行きたい！</button>
+                    </div>
+                    <div class="slide">
+                        <div class="search-result search-result7">
+                            <div class="shop-img7">
+                                <img src="" alt="">
+                            </div>
+                            <div class="intro-box7">
+                                <p class="shop-name7"></p>
+                                <p class="shop-address7"></p>
+                                <p class="shop-time7"></p>
+                                <p class="shop-homepage7">
+                                    <a href="" class="HP7"></a>
+                                </p>
+                                <button class="togobtn7">行きたい！</button>
+                            </div>
                         </div>
-                  </div>
-                  </div>
-                  <div class="slide">
-                    <div class="search-result search-result5">
-                        <div class="shop-img5">
-                            <img src="" alt="">
+                    </div>
+                    <div class="slide">
+                        <div class="search-result search-result8">
+                            <div class="shop-img8">
+                                <img src="" alt="">
+                            </div>
+                            <div class="intro-box8">
+                                <p class="shop-name8"></p>
+                                <p class="shop-address8"></p>
+                                <p class="shop-time8"></p>
+                                <p class="shop-homepage8">
+                                    <a href="" class="HP8"></a>
+                                </p>
+                                <button class="togobtn8">行きたい！</button>
+                            </div>
                         </div>
-                        <div class="intro-box5">
-                            <p class="shop-name5"></p>
-                            <p class="shop-address5"></p>
-                            <p class="shop-time5"></p>
-                            <p class="shop-homepage5">
-                                <a href="" class="HP5"></a>
-                            </p>
-                            <button class="togobtn5">行きたい！</button>
+                    </div>
+                    <div class="slide">
+                        <div class="search-result search-result9">
+                            <div class="shop-img9">
+                                <img src="" alt="">
+                            </div>
+                            <div class="intro-box9">
+                                <p class="shop-name9"></p>
+                                <p class="shop-address9"></p>
+                                <p class="shop-time9"></p>
+                                <p class="shop-homepage9">
+                                    <a href="" class="HP9"></a>
+                                </p>
+                                <button class="togobtn9">行きたい！</button>
+                            </div>
                         </div>
-                  </div>
-                  </div>
-                  <div class="slide">
-                    <div class="search-result search-result6">
-                        <div class="shop-img6">
-                            <img src="" alt="">
-                        </div>
-                        <div class="intro-box6">
-                            <p class="shop-name6"></p>
-                            <p class="shop-address6"></p>
-                            <p class="shop-time6"></p>
-                            <p class="shop-homepage6">
-                                <a href="" class="HP6"></a>
-                            </p>
-                            <button class="togobtn6">行きたい！</button>
-                        </div>
-                  </div>
-                  </div>
-                  <div class="slide">
-                    <div class="search-result search-result7">
-                        <div class="shop-img7">
-                            <img src="" alt="">
-                        </div>
-                        <div class="intro-box7">
-                            <p class="shop-name7"></p>
-                            <p class="shop-address7"></p>
-                            <p class="shop-time7"></p>
-                            <p class="shop-homepage7">
-                                <a href="" class="HP7"></a>
-                            </p>
-                            <button class="togobtn7">行きたい！</button>
-                        </div>
-                  </div>
-                  </div>
-                  <div class="slide">
-                    <div class="search-result search-result8">
-                        <div class="shop-img8">
-                            <img src="" alt="">
-                        </div>
-                        <div class="intro-box8">
-                            <p class="shop-name8"></p>
-                            <p class="shop-address8"></p>
-                            <p class="shop-time8"></p>
-                            <p class="shop-homepage8">
-                                <a href="" class="HP8"></a>
-                            </p>
-                            <button class="togobtn8">行きたい！</button>
-                        </div>
-                  </div>
-                  </div>
-                  <div class="slide">
-                    <div class="search-result search-result9">
-                        <div class="shop-img9">
-                            <img src="" alt="">
-                        </div>
-                        <div class="intro-box9">
-                            <p class="shop-name9"></p>
-                            <p class="shop-address9"></p>
-                            <p class="shop-time9"></p>
-                            <p class="shop-homepage9">
-                                <a href="" class="HP9"></a>
-                            </p>
-                            <button class="togobtn9">行きたい！</button>
-                        </div>
-                  </div>
-                  </div>
+                    </div>
                 </div>
-<<<<<<< HEAD
 
-=======
->>>>>>> e174482a9f14f81f058e2bd29d32c7aa489fad20
+
+
             </div>
         </section>
         <section class="todobody">
@@ -255,28 +265,6 @@
             <ul class="togolist"></ul>
         </section>
 
-<<<<<<< HEAD
-<section>
-    <label for="">lunch</label><input type="text" id="lunch"><button class="lunch-btn">検索</button>
-    <div class="result">
-
-    </div>
-</section>
-<section>
-    <div>  
-        <h2>料理ジャンルから探す</h2>
-        <ul class="cook-img">
-            <li><a href="https://r.gnavi.co.jp/area/tokyo/izakaya/rs/"><img src="./001_genrelink_izakaya.jpeg" alt="cook1" class="cook"></a></li>
-            <li><a href="https://r.gnavi.co.jp/area/tokyo/japanese/rs/"><img src="./002_genrelink_japanese.jpeg" alt="cook2" class="cook"></a></li>
-            <li><a href="https://r.gnavi.co.jp/area/tokyo/sushi/rs/"><img src="./003_genrelink_sushi.jpeg" alt="cook3" class="cook"></a></li>
-            <li><a href="https://r.gnavi.co.jp/area/tokyo/roastmeat/rs/"><img src="./004_genrelink_roastmeat.jpeg" alt="cook4" class="cook"></a></li>
-        </ul>
-    </div>
-    <ul>
-        <li><a href="https://www.instagram.com/gnaviofficial/?hl=ja"><img src="./asset/Instagram_Glyph_Gradient_RGB.png" alt="inst"></a></li>
-    </ul>
-
-</section>
 
 
 
@@ -286,6 +274,36 @@
 
 
 
+        <section>
+            <label for="">lunch</label><input type="text" id="lunch"><button class="lunch-btn">検索</button>
+            <div class="result">
+
+            </div>
+        </section>
+        <section>
+            <div>
+                <h2 id="cook-h2">料理ジャンルから探す</h2>
+                <ul class="cook-img">
+                    <li><a href="https://r.gnavi.co.jp/area/tokyo/izakaya/rs/"><img src="./001_genrelink_izakaya.jpeg"
+                                alt="cook1" class="cook1 cook"></a></li>
+                    <li><a href="https://r.gnavi.co.jp/area/tokyo/japanese/rs/"><img src="./002_genrelink_japanese.jpeg"
+                                alt="cook2" class="cook2 cook"></a></li>
+                    <li><a href="https://r.gnavi.co.jp/area/tokyo/sushi/rs/"><img src="./003_genrelink_sushi.jpeg"
+                                alt="cook3" class="cook3 cook"></a></li>
+                    <li><a href="https://r.gnavi.co.jp/area/tokyo/roastmeat/rs/"><img
+                                src="./004_genrelink_roastmeat.jpeg" alt="cook4" class="cook4 cook"></a></li>
+                </ul>
+            </div>
+            <div class="sns-icon">
+         
+                <p><a href="https://www.instagram.com/gnaviofficial/?hl=ja"><img
+                            src="./asset/Instagram_Glyph_Gradient_RGB.png" alt="inst" class="sns"></a></p>
+                <p><a href="https://twitter.com/GnaviOfficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                            src="./asset/twitter.webp" alt="" class="sns"></a></p>
+                <p><a href="https://www.facebook.com/gourmetNavi/"><img src="./asset/f_logo_RGB-Blue_58.png" alt=""class="sns-fb"></a></p>
+            
+        </div>
+        </section>
 
 
 
@@ -294,36 +312,39 @@
 
 
 
-=======
+
+
+
+
+
+
+
+
+
+
         <!-- ここまで -->
->>>>>>> e174482a9f14f81f058e2bd29d32c7aa489fad20
+
 
 
 
 
 
     </main>
-<<<<<<< HEAD
-
-
 
 
     <footer>
-
-
-
+        <div><p>&copy;MOGU MOGU</p></div>
     </footer>
-=======
-    <footer></footer>
     <!-- <div class="start">
         <p class="fade">最高の一皿に出逢おう。</p>
     </div> -->
->>>>>>> e174482a9f14f81f058e2bd29d32c7aa489fad20
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- <script src="./plugin/letterfx/jquery-letterfx.js"></script>
     <script src="./plugin/letterfx/jquery-letterfx.min.js"></script>
     <script src="./plugin/letterfx/tuxsudo.min.js"></script> -->
     <script src="./script.js"></script>
 </body>
+
 
 </html>

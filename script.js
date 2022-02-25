@@ -334,6 +334,47 @@ console.log(response);
   //結果に関わらず実行したいスクリプトを記載
 });   
 
+$('.cook1').mouseover(function(){
+  $('.cook1').css('opacity',0.6)
+})
+
+$('.cook1').mouseleave(function(){
+  $('.cook1').css('opacity',1)
+})
+
+
+$('.cook2').mouseover(function(){
+  $('.cook2').css('opacity',0.6)
+})
+
+$('.cook2').mouseleave(function(){
+  $('.cook2').css('opacity',1)
+})
+
+$('.cook3').mouseover(function(){
+  $('.cook3').css('opacity',0.6)
+})
+
+$('.cook3').mouseleave(function(){
+  $('.cook3').css('opacity',1)
+})
+
+$('.cook4').mouseover(function(){
+  $('.cook4').css('opacity',0.6)
+})
+
+$('.cook4').mouseleave(function(){
+  $('.cook4').css('opacity',1)
+})
+
+
+
+
+
+
+
+
+
 
 })
 
