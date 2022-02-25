@@ -106,6 +106,7 @@ ul{
 
 
 
+  
 
 
 
@@ -267,4 +268,38 @@ ul{
   }
   /* ここまで */
   /* ここからtodo copy */
+
+
+
+
+
+
+/* ------picup----- */
+h2{
+  text-align: center;
+}
+
+.cook-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cook{
+  max-width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+  /* フッター */
+  footer{
+    height: 50px;
+    background-color: red;
+  }
   

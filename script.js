@@ -34,12 +34,13 @@ $(function(){
     $(".submit-btn").on("click",function(){
         var search =$("#keyword").val();
     $.ajax({
-    url: `http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=4fbd9178b450695a&keyword=${search}&format=jsonp`,
+    url: `http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=4fbd9178b450695a&keyword=${search}&${input}&format=jsonp`,
     type: 'GET',
     dataType: 'jsonp',
     jsonpCallback: 'callback'
   }).done(function(data) {
       console.log(data);
+      let input=$('#lunch').val();
     //   var searchResult = document.createElement("div");
     //   searchResult.classList.add("search-result");
     //   var shopImg = document.createElement("div");
@@ -270,4 +271,55 @@ $(".togobtn9").on("click",function(){
         this.parentElement.remove();
     })
 })
+//ランチ検索　ーーーーーーーーーーーーーーー
+
+$('.lunch-btn').on('click',function(){
+// $('#lunch')
 })
+
+let input=$('#lunch').val();
+
+
+// let data={
+//   "lunch":input
+// }
+
+$.ajax({
+  url: `http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=4fbd9178b450695a&lunch=${input}&format=jsonp`,
+  type: 'GET',
+  dataType: 'jsonp',
+  jsonpCallback: 'callback' //アクセスするときに必要なデータを記載  （連想配列で渡す）    
+//   ↑左キー名
+})
+.done(function(response) { 
+   //通信成功時の処理
+  //  console.log(response.results[0].address1);
+  //  $('.result').append(response.results[0].address1,response.results[0].address2);
+// その他の方法
+// let postadd =response.results[0];
+// $('.result').append(postadd.address1,postadd.address2,postadd.address3);
+// その他の方法
+
+// for(let i=1;i<4;i++){
+  // $('.result').append(postadd["address" + i]);
+// その他
+console.log(response);
+
+
+
+
+   //成功したとき実行したいスクリプトを記載
+})
+.fail(function(xhr) {  
+//通信失敗時の処理
+   //失敗したときに実行したいスクリプトを記載
+})
+.always(function(xhr, msg) { 
+//通信完了時の処理
+  //結果に関わらず実行したいスクリプトを記載
+});   
+
+
+})
+
+
