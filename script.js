@@ -223,6 +223,13 @@ $(".togobtn1").on("click",function(){
     var togolink =document.createElement("a");
     togo.append(togolink);
     togolink.append($(".shop-name").text())
+    // ここからデリート
+    var delbtn = document.createElement("span");
+    delbtn.textContent ="delete";
+    delbtn.addEventListener("click",function(){
+        this.parentElement.remove();
+    })
+    togo.append(delbtn);
 })
 $(".togobtn2").on("click",function(){
     var togo =document.createElement("li");
@@ -230,6 +237,13 @@ $(".togobtn2").on("click",function(){
     var togolink =document.createElement("a");
     togo.append(togolink);
     togolink.append($(".shop-name2").text())
+    // ここからデリート
+    var delbtn = document.createElement("span");
+    delbtn.textContent ="delete";
+    delbtn.addEventListener("click",function(){
+        this.parentElement.remove();
+    })
+    togo.append(delbtn);
 })
 $(".togobtn3").on("click",function(){
     var togo =document.createElement("li");
@@ -237,6 +251,13 @@ $(".togobtn3").on("click",function(){
     var togolink =document.createElement("a");
     togo.append(togolink);
     togolink.append($(".shop-name3").text())
+    // ここからデリート
+    var delbtn = document.createElement("span");
+    delbtn.textContent ="delete";
+    delbtn.addEventListener("click",function(){
+        this.parentElement.remove();
+    })
+    togo.append(delbtn);
 })
 $(".togobtn4").on("click",function(){
     var togo =document.createElement("li");
@@ -244,6 +265,13 @@ $(".togobtn4").on("click",function(){
     var togolink =document.createElement("a");
     togo.append(togolink);
     togolink.append($(".shop-name4").text())
+    // ここからデリート
+    var delbtn = document.createElement("span");
+    delbtn.textContent ="delete";
+    delbtn.addEventListener("click",function(){
+        this.parentElement.remove();
+    })
+    togo.append(delbtn);
 })
 $(".togobtn5").on("click",function(){
     var togo =document.createElement("li");
@@ -251,6 +279,13 @@ $(".togobtn5").on("click",function(){
     var togolink =document.createElement("a");
     togo.append(togolink);
     togolink.append($(".shop-name5").text())
+    // ここからデリート
+    var delbtn = document.createElement("span");
+    delbtn.textContent ="delete";
+    delbtn.addEventListener("click",function(){
+        this.parentElement.remove();
+    })
+    togo.append(delbtn);
 })
 $(".togobtn6").on("click",function(){
     var togo =document.createElement("li");
@@ -258,6 +293,13 @@ $(".togobtn6").on("click",function(){
     var togolink =document.createElement("a");
     togo.append(togolink);
     togolink.append($(".shop-name6").text())
+    // ここからデリート
+    var delbtn = document.createElement("span");
+    delbtn.textContent ="delete";
+    delbtn.addEventListener("click",function(){
+        this.parentElement.remove();
+    })
+    togo.append(delbtn);
 })
 $(".togobtn7").on("click",function(){
     var togo =document.createElement("li");
@@ -265,6 +307,13 @@ $(".togobtn7").on("click",function(){
     var togolink =document.createElement("a");
     togo.append(togolink);
     togolink.append($(".shop-name7").text())
+    // ここからデリート
+    var delbtn = document.createElement("span");
+    delbtn.textContent ="delete";
+    delbtn.addEventListener("click",function(){
+        this.parentElement.remove();
+    })
+    togo.append(delbtn);
 })
 $(".togobtn8").on("click",function(){
     var togo =document.createElement("li");
@@ -272,6 +321,13 @@ $(".togobtn8").on("click",function(){
     var togolink =document.createElement("a");
     togo.append(togolink);
     togolink.append($(".shop-name8").text())
+    // ここからデリート
+    var delbtn = document.createElement("span");
+    delbtn.textContent ="delete";
+    delbtn.addEventListener("click",function(){
+        this.parentElement.remove();
+    })
+    togo.append(delbtn);
 })
 $(".togobtn9").on("click",function(){
     var togo =document.createElement("li");
