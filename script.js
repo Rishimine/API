@@ -1,15 +1,8 @@
+
 // jQueryを用いたAPIの実装
 $(function(){
-// localstrage用
-let data = JSON.parse(localStorage.getItem('key'));
-if(data == null){
-    data =[];
-}else{
-    for (const d of data) {
-        createTask(d);
-      }
-};
 // ここまで
+
 // ここから初めのアニメーション
 setTimeout(function () {
     $('.start p').fadeIn(1600);
@@ -18,6 +11,18 @@ setTimeout(function () {
     $('.start').fadeOut(500);
 }, 2500);
 // ここまで
+
+// ハンバーガー
+$(".openbtn").click(function () {//ボタンがクリックされたら
+	$(this).toggleClass('active');//ボタン自身に activeクラスを付与し
+    $("#g-nav").toggleClass('panelactive');//ナビゲーションにpanelactiveクラスを付与
+});
+
+$("#g-nav a").click(function () {//ナビゲーションのリンクがクリックされたら
+    $(".openbtn").removeClass('active');//ボタンの activeクラスを除去し
+    $("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
+});
+// ハンバーガー
 
 
 
