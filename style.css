@@ -541,3 +541,17 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 	z-index: 9999;
 	width: 70%;
 }
+
+/* レスポンシブ */
+@media screen and (max-width:780px) {
+  
+  .cook-img{
+   display: block;
+  }
+
+
+.cook-img img{
+  
+max-width: 80%;
+
+}
