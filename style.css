@@ -409,34 +409,34 @@ ul{
   }
   
   .slide:nth-child(1){
-    background-color: tomato;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(2){
-    background-color: rgb(252, 255, 71);
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(3){
-    background-color: rgb(255, 71, 157);
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(4){
-    background-color: orange;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(5){
-    background-color: red;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(6){
-    background-color: violet;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(7){
-    background-color: darkred;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(8){
-    background-color: orangered;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(9){
-    background-color: maroon;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(10){
-    background-color: firebrick;
+    background-color: rgb(121, 102, 102);
   }
   /* ここまで */
   /* ここからtodo copy */
@@ -561,7 +561,7 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 
 .header-logo img{
   height: 200px;
-  width: 270px;
+  width: 290px;
 }
 
 
