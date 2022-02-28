@@ -520,19 +520,26 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
       flex-direction: column;
       justify-content: center;
       align-items: center
-  };
+  }
 
   .start{
 	background: #FFF;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
 	z-index: 9000;
   }
+
+  .start-child{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
 .start p {
-	position: fixed;
+	position: absolute;
     font-size: 50px;
 	left: 50%;
 	top: 50%;
@@ -550,8 +557,6 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
   }
 
 
-.cook-img img{
-  
+ .cook-img img{
 max-width: 80%;
-
-}
+ }}
