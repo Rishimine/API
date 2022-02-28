@@ -114,6 +114,10 @@ opacity: 0;
 }
 /* ハンバーガーここまで */
 
+
+
+
+
 .header-lite{
     display: flex;
     align-items: center;
@@ -548,6 +552,18 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 	z-index: 9999;
 	width: 70%;
 }
+
+.header-logo{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.header-logo img{
+  height: 200px;
+  width: 270px;
+}
+
 
 /* レスポンシブ */
 @media screen and (max-width:780px) {
