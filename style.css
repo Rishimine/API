@@ -114,6 +114,10 @@ opacity: 0;
 }
 /* ハンバーガーここまで */
 
+
+
+
+
 .header-lite{
     display: flex;
     align-items: center;
@@ -405,34 +409,34 @@ ul{
   }
   
   .slide:nth-child(1){
-    background-color: tomato;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(2){
-    background-color: rgb(252, 255, 71);
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(3){
-    background-color: rgb(255, 71, 157);
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(4){
-    background-color: orange;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(5){
-    background-color: red;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(6){
-    background-color: violet;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(7){
-    background-color: darkred;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(8){
-    background-color: orangered;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(9){
-    background-color: maroon;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(10){
-    background-color: firebrick;
+    background-color: rgb(121, 102, 102);
   }
   /* ここまで */
   /* ここからtodo copy */
@@ -548,6 +552,18 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 	z-index: 9999;
 	width: 70%;
 }
+
+.header-logo{
+  height: 200px;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.header-logo img{
+  height: 200px;
+  width: 290px;
+}
+
 
 /* レスポンシブ */
 @media screen and (max-width:780px) {
