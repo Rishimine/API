@@ -552,6 +552,14 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 /* レスポンシブ */
 @media screen and (max-width:780px) {
   
+  .todobody{
+ flex-direction: column;
+  }
+  .API{
+    font-size: 10px;
+  }
+
+
   .cook-img{
    display: block;
   }
@@ -559,4 +567,8 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 
  .cook-img img{
 max-width: 80%;
- }}
+ }
+
+
+
+}

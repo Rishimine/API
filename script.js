@@ -55,11 +55,14 @@ $(function () {
   $(".submit-btn").on("click", function () {
     var search = $("#keyword").val();
     let lunch = $('#lunch').val();
+    let english =$('#english').val();
     let data = {
       'key': '4fbd9178b450695a',
       'keyword': search,
       'format': 'jsonp',
       'lunch': lunch,
+      'english':english,
+
     }
     $.ajax({
       url: `http://webservice.recruit.co.jp/hotpepper/gourmet/v1/`,
@@ -72,7 +75,10 @@ $(function () {
       let input = $('#lunch').val();
       // ランチ内容
       let lunch = $('#lunch').val();
+      // englishmenu
+      let english =$('#english').val();
 
+      console.log($('#english').val());
       $('#lunch').val();
       console.log($('#lunch').val());
 
@@ -364,6 +370,12 @@ $(function () {
     togo.append(delbtn);
 
   })
+
+
+
+
+
+
   //ランチ検索　ーーーーーーーーーーーーーーー
 
   $('.lunch-btn').on('click', function () {
@@ -377,8 +389,11 @@ $(function () {
   //   "lunch":input
   // }
 
+  
+  // englishmenu検索
+
   $.ajax({
-    url: `http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=4fbd9178b450695a&lunch=${input}&format=jsonp`,
+    url: `http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=4fbd9178b450695a&english=${input}&format=jsonp`,
     type: 'GET',
     dataType: 'jsonp',
     jsonpCallback: 'callback' //アクセスするときに必要なデータを記載  （連想配列で渡す）    
