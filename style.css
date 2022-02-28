@@ -405,34 +405,34 @@ ul{
   }
   
   .slide:nth-child(1){
-    background-color: tomato;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(2){
-    background-color: rgb(252, 255, 71);
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(3){
-    background-color: rgb(255, 71, 157);
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(4){
-    background-color: orange;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(5){
-    background-color: red;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(6){
-    background-color: violet;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(7){
-    background-color: darkred;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(8){
-    background-color: orangered;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(9){
-    background-color: maroon;
+    background-color: rgb(121, 102, 102);
   }
   .slide:nth-child(10){
-    background-color: firebrick;
+    background-color: rgb(121, 102, 102);
   }
   /* ここまで */
   /* ここからtodo copy */
@@ -529,15 +529,24 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 	left: 0;
 	height: 100%;
 	width: 100%;
-	z-index: 9000;
+	z-index: 9998;
   }
 .start p {
 	position: fixed;
-    font-size: 50px;
+  font-size: 50px;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%, -50%);
 	display: none;
 	z-index: 9999;
 	width: 70%;
+}
+
+.header-logo{
+  height: 100px;
+}
+
+.header-logo img{
+  height: 100%;
+  width: 100%;
 }

@@ -2,7 +2,6 @@
 // jQueryを用いたAPIの実装
 $(function(){
 // ここまで
-
 // ここから初めのアニメーション
 setTimeout(function () {
     $('.start p').fadeIn(1600);
@@ -10,6 +9,7 @@ setTimeout(function () {
 setTimeout(function () {
     $('.start').fadeOut(500);
 }, 2500);
+
 // ここまで
 
 // ハンバーガー
@@ -439,4 +439,8 @@ $('.cook4').mouseleave(function(){
 
 })
 
-
+$(function() {
+  $(".fade").letterfx({
+    "fx": "fade"
+  });
+});
