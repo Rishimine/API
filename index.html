@@ -25,7 +25,7 @@
     <!-- <div class="openbtn"><span></span><span></span><span></span></div>
 <nav id="g-nav">
 <div id="g-nav-list">ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除 -->
-<!-- <ul>
+    <!-- <ul>
     <li><a href="">予約確認</a></li>
     <li><a href="">お気に入り</a></li> 
     <li><a
@@ -44,34 +44,38 @@
 </ul>
 </div>
 </nav> -->
-<!-- ハンバーガーここまで -->
+    <!-- ハンバーガーここまで -->
     <header>
         <div class="header-lite">
             <img src="./asset/mogumogu.png" alt="logo">
             <!-- ハンバーガー -->
-    <div class="openbtn"><span></span><span></span><span></span></div>
-    <nav id="g-nav">
-    <div id="g-nav-list"><!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
-    <ul>
-        <li><a href="">予約確認</a></li>
-        <li><a href="">お気に入り</a></li> 
-        <li><a
-            href="https://point.recruit.co.jp/member/OAuthLogin/?client_id=d37b0ba0d2f2d914e6214a3130668745619a5ae452be1b41555da255f2714e54&redirect_uri=https%3A%2F%2Fwww.hotpepper.jp%2FCSP%2FcapMemberForward%2F&response_type=code&state=f250d73cfbf33880df3b5f09ed64c528a46b5bcd8985b652&re_auth=1&insertion_flg=">ログイン</a>
-        </li>
-        <li><a
-            href="https://point.recruit.co.jp/member/memRegist/?client_id=d37b0ba0d2f2d914e6214a3130668745619a5ae452be1b41555da255f2714e54&redirect_uri=https%3A%2F%2Fwww.hotpepper.jp%2FCSP%2FcapMemberForward%2F&response_type=code&re_auth=1&insertion_flg=&state=f250d73cfbf33880df3b5f09ed64c528a46b5bcd8985b652">新規登録</a>
-        </li>
-        <li class="sns-icon">
-            <p><a href="https://www.instagram.com/gnaviofficial/?hl=ja"><img
-                src="./asset/Instagram_Glyph_Gradient_RGB.png" alt="inst" class="sns"></a></p>
-            <p><a href="https://twitter.com/GnaviOfficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
-                src="./asset/—Pngtree—twitter social media icon_3572493.png" alt="" class="sns-tw"></a></p>
-            <p><a href="https://www.facebook.com/gourmetNavi/"><img src="./asset/f_logo_RGB-Blue_58.png" alt=""class="sns-fb"></a></p>
-        </li>
-    </ul>
-    </div>
-    </nav>
-    <!-- ハンバーガーここまで -->
+            <div class="openbtn"><span></span><span></span><span></span></div>
+            <nav id="g-nav">
+                <div id="g-nav-list">
+                    <!--ナビの数が増えた場合縦スクロールするためのdiv※不要なら削除-->
+                    <ul>
+                        <li><a href="">予約確認</a></li>
+                        <li><a href="">お気に入り</a></li>
+                        <li><a
+                                href="https://point.recruit.co.jp/member/OAuthLogin/?client_id=d37b0ba0d2f2d914e6214a3130668745619a5ae452be1b41555da255f2714e54&redirect_uri=https%3A%2F%2Fwww.hotpepper.jp%2FCSP%2FcapMemberForward%2F&response_type=code&state=f250d73cfbf33880df3b5f09ed64c528a46b5bcd8985b652&re_auth=1&insertion_flg=">ログイン</a>
+                        </li>
+                        <li><a
+                                href="https://point.recruit.co.jp/member/memRegist/?client_id=d37b0ba0d2f2d914e6214a3130668745619a5ae452be1b41555da255f2714e54&redirect_uri=https%3A%2F%2Fwww.hotpepper.jp%2FCSP%2FcapMemberForward%2F&response_type=code&re_auth=1&insertion_flg=&state=f250d73cfbf33880df3b5f09ed64c528a46b5bcd8985b652">新規登録</a>
+                        </li>
+                        <li class="sns-icon">
+                            <p><a href="https://www.instagram.com/gnaviofficial/?hl=ja"><img
+                                        src="./asset/Instagram_Glyph_Gradient_RGB.png" alt="inst" class="sns"></a></p>
+                            <p><a
+                                    href="https://twitter.com/GnaviOfficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                                        src="./asset/—Pngtree—twitter social media icon_3572493.png" alt=""
+                                        class="sns-tw"></a></p>
+                            <p><a href="https://www.facebook.com/gourmetNavi/"><img src="./asset/f_logo_RGB-Blue_58.png"
+                                        alt="" class="sns-fb"></a></p>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- ハンバーガーここまで -->
             <!-- <nav>
                 <ul class="header-right">
                     <li><a href="">予約確認</a></li>
@@ -155,12 +159,16 @@
             <div class="formbox">
                 <label for="keyword">キーワード検索</label><input type="text" id="keyword">
                 <section>
-                    <label for="">lunch</label><input type="text" id="lunch">
+                    <label for="">lunch</label>
+                    <select name="" id="lunch">
+                        <option value=1>あり</option>
+                        <option value=0>なし</option>
+                    </select>
                     <div class="result">
-                            </div>
-                        </section>
-                        <section><button
-                    class="submit-btn">検索</button>
+                    </div>
+                </section>
+                
+                    <button class="submit-btn">検索</button>
             </div>
             <div class="container-wrap">
                 <span class="left-arrow"></span>
@@ -320,20 +328,20 @@
             <ul class="togolist"></ul>
         </section>
 
-            <div class="category">
-                <h2 id="cook-h2">料理ジャンルから探す</h2>
-                <ul class="cook-img">
-                    <li><a href="https://r.gnavi.co.jp/area/tokyo/izakaya/rs/"><img src="./001_genrelink_izakaya.jpeg"
-                                alt="cook1" class="cook1 cook"></a></li>
-                    <li><a href="https://r.gnavi.co.jp/area/tokyo/japanese/rs/"><img src="./002_genrelink_japanese.jpeg"
-                                alt="cook2" class="cook2 cook"></a></li>
-                    <li><a href="https://r.gnavi.co.jp/area/tokyo/sushi/rs/"><img src="./003_genrelink_sushi.jpeg"
-                                alt="cook3" class="cook3 cook"></a></li>
-                    <li><a href="https://r.gnavi.co.jp/area/tokyo/roastmeat/rs/"><img
-                                src="./004_genrelink_roastmeat.jpeg" alt="cook4" class="cook4 cook"></a></li>
-                </ul>
-            </div>
-            <!-- <div class="sns-icon">
+        <div class="category">
+            <h2 id="cook-h2">料理ジャンルから探す</h2>
+            <ul class="cook-img">
+                <li><a href="https://r.gnavi.co.jp/area/tokyo/izakaya/rs/"><img src="./001_genrelink_izakaya.jpeg"
+                            alt="cook1" class="cook1 cook"></a></li>
+                <li><a href="https://r.gnavi.co.jp/area/tokyo/japanese/rs/"><img src="./002_genrelink_japanese.jpeg"
+                            alt="cook2" class="cook2 cook"></a></li>
+                <li><a href="https://r.gnavi.co.jp/area/tokyo/sushi/rs/"><img src="./003_genrelink_sushi.jpeg"
+                            alt="cook3" class="cook3 cook"></a></li>
+                <li><a href="https://r.gnavi.co.jp/area/tokyo/roastmeat/rs/"><img src="./004_genrelink_roastmeat.jpeg"
+                            alt="cook4" class="cook4 cook"></a></li>
+            </ul>
+        </div>
+        <!-- <div class="sns-icon">
          
                 <p><a href="https://www.instagram.com/gnaviofficial/?hl=ja"><img
                             src="./asset/Instagram_Glyph_Gradient_RGB.png" alt="inst" class="sns"></a></p>
@@ -372,7 +380,9 @@
 
 
     <footer>
-        <div><p>&copy;MOGU MOGU</p></div>
+        <div>
+            <p>&copy;MOGU MOGU</p>
+        </div>
     </footer>
     <!-- <div class="start">
         <p class="fade">最高の一皿に出逢おう。</p>
