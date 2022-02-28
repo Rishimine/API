@@ -506,9 +506,9 @@ text-align: center;
     text-align: center;
     padding: 10px ;
     font-family: 'Dancing Script', cursive;
-font-family: 'Luxurious Roman', cursive;
-font-family: 'M PLUS Rounded 1c', sans-serif;
-  }
+    font-family: 'Luxurious Roman', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+      }
   
 
   li span {
@@ -520,17 +520,24 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
       flex-direction: column;
       justify-content: center;
       align-items: center
-  };
+  }
 
   .start{
 	background: #FFF;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	height: 100%;
 	width: 100%;
 	z-index: 9998;
   }
+
+  .start-child{
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
 .start p {
 	position: fixed;
   font-size: 50px;
@@ -543,7 +550,8 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .header-logo{
-  height: 100px;
+  height: 150px;
+  margin-bottom: 20px;
 }
 
 .header-logo img{
