@@ -584,6 +584,13 @@ font-family: 'M PLUS Rounded 1c', sans-serif;
  .cook-img img{
 max-width: 80%;
  }
+ .formbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
 
 
 
